@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A reflective project on how social media affects our relationships, body image, and daily lives. Includes a quiz and helpful resources for a balanced lifestyle.">
+    <meta name="keywords" content="social media, reflection, relationships, body image, quiz, resources">
+    <title>Chronically Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <img src="images/intro-image.jpg" alt="Welcome to Chronically Online">
+        <h1 id="typed-text" class="glowy-text"></h1>
+        <button class="enter-button" onclick="navigateToMain()">Enter</button>
+    </div>
+
+    <!-- Main Content Page -->
+    <div class="main-page" style="display: none;">
+        <nav>
+            <ul>
+                <li class="glowy-tab" onclick="showTab(0)">Home</li>
+                <li class="glowy-tab" onclick="showTab(1)">Social Media And Our Bodies</li>
+                <li class="glowy-tab" onclick="showTab(2)">Social Media And Our Partnerships</li>
+                <li class="glowy-tab" onclick="showTab(3)">Social Media And Our Friends</li>
+                <li class="glowy-tab" onclick="showTab(4)">Final Thoughts</li>
+                <li class="glowy-tab" onclick="showTab(5)">Co-Pop Quiz</li>
+                <li class="glowy-tab" onclick="showTab(6)">Chronically Online Hotline</li>
+            </ul>
+        </nav>
+        <div class="tab-content">
+            <div id="tab-0" class="tab active">
+                <div class="iphone-frame">
+                    <img src="images/tab0-image.jpg" alt="Introduction Image">
+                    <p>Throughout this semester, I have been honored to be a part of enriching conversations...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
